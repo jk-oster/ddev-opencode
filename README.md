@@ -12,4 +12,4 @@ use an existing key, or allowed functions etc.
 
 ## Acknowledgement
 
-> This is a fork from [ddev-claude-code](https://github.com/FreelyGive/ddev-claude-code). Thanks to [@FreelyGive](https://github.com/FreelyGive) for providing this project repo as a template for integrating CLI coding agents into ddev.
+> This is a fork from [ddev-claude-code](https://github.com/FreelyGive/ddev-claude-code). Thanks to [@FreelyGive](https://github.com/FreelyGive) for providing this project repo as a template for integrating CLI coding agents as [addon](https://addons.ddev.com/) into [ddev](https://ddev.com/).
