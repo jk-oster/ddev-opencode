@@ -1,0 +1,10 @@
+#ddev-generated
+#!/bin/bash
+
+## Description: OpenCode!
+## Usage: opencode
+## Example: ddev opencode [...]
+
+set -e
+
+opencode $@
