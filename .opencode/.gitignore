@@ -1,6 +1,6 @@
 #ddev-generated
 # Opencode internal config
-# opencode.jsonc
-# agent/
-# command/
-# skill/
+opencode.jsonc
+agent/
+command/
+skill/
