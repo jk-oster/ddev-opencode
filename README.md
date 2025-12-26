@@ -4,7 +4,7 @@
 
 [Opencode](https://opencode.ai/) is installed inside the DDEV container and is accesible using
 `ddev opencode`. When you first run, you will be prompted to do this
-interactively. Your configuration will be stored in `.ddev/.opencode.jsonc`
+interactively. Your configuration will be stored in `.ddev/opencode.jsonc`
 and `.ddev/.opencode/`, and will be persisted across restarts.
 
 You can copy in an existing `.ddev/opencode.jsonc`, for example if you want to
