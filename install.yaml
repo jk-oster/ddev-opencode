@@ -9,7 +9,9 @@ name: opencode
 project_files:
   - web-build/Dockerfile.opencode
   - commands/web/opencode
-  - commands/web/glab
   - config.opencode.yaml
   - .opencode/opencode.jsonc
   - .opencode/.gitignore
+  - .opencode/agent/.gitignore
+  - .opencode/skill/.gitignore
+  - .opencode/command/.gitignore
