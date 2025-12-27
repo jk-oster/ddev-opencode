@@ -3,17 +3,20 @@
 ## Opencode
 
 [Opencode](https://opencode.ai/) is installed inside the DDEV container and is accesible using
-`ddev opencode`. When you first run, you will be prompted to do this
-interactively. Your configuration will be stored in `.ddev/opencode.jsonc`
-and `.ddev/.opencode/`, and will be persisted across restarts.
+`ddev opencode`. Your configuration will be stored in `.ddev/.opencode` (symlinked to `~/.config/opencode` in the web container), and will be persisted across restarts.
 
-You can copy in an existing `.ddev/opencode.jsonc`, for example if you want to
-use an existing key, or allowed functions etc.
+You can copy in an existing `opencode.jsonc`, for example if you want to use an existing configuration, mcps, permissions,...
 
 ## Installation
 ```sh
 ddev add-on get jk-oster/ddev-opencode
 ```
+
+## Usage
+
+### Laravel Boost
+
+Enable the Laravel Boost MCP server in `.ddev/.opencode/opencode.jsonc`
 
 ## Acknowledgement
 
