@@ -4,3 +4,5 @@ opencode.jsonc
 agent/
 command/
 skill/
+bun.lock
+package.json
