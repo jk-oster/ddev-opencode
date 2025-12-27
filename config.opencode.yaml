@@ -1,8 +1,8 @@
 #ddev-generated
 hooks:
   post-start:
+    # Ensure opencode config directories exist and are linked
+    # https://opencode.ai/docs/config/#global
     - exec: "mkdir -p /var/www/html/.ddev/.opencode"
-    - exec: "touch /var/www/html/.ddev/.opencode/opencode.jsonc"
-    - exec: "ln -sf /var/www/html/.ddev/.opencode/opencode.jsonc ~/opencode.jsonc"
-    - exec: "ln -sf /var/www/html/.ddev/.opencode ~/.opencode"
-    - exec: "if [ -f ~/CLAUDE.md ]; then ln -sf ~/CLAUDE.md ~/AGENTS.md; fi"
+    - exec: "mkdir -p .config/opencode"
+    - exec: "ln -sf /var/www/html/.ddev/.opencode ~/.config/opencode"
