@@ -16,7 +16,7 @@ ddev add-on get jk-oster/ddev-opencode
 
 ### Laravel Boost
 
-Enable the Laravel Boost MCP server in `.ddev/.opencode/opencode.jsonc`
+Enable the pre-configured Laravel Boost MCP server in `.ddev/.opencode/opencode.jsonc`
 
 ## Acknowledgement
 
