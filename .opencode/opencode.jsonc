@@ -1,6 +1,7 @@
 // #ddev-generated
 {
     "$schema": "https://opencode.ai/config.json",
+    "default_agent": "plan",
     "mcp": {
 
       // https://laravel.com/ai/boost
