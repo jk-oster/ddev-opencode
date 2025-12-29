@@ -6,6 +6,16 @@
         "type": "local",
         "command": ["php", "artisan", "boost:mcp"],
         "enabled": false
+      },
+      "clickup": {
+        "type": "local",
+        "command": [ "npx", "-y", "@hauptsache.net/clickup-mcp@latest" ],
+        "enabled": false,
+        "environment": {
+          "CLICKUP_API_KEY": "<API_KEY>",
+          "CLICKUP_TEAM_ID": "<TEAM_ID>",
+          "CLICKUP_MCP_MODE": "read-minimal"
+        }
       }
     }
 }
