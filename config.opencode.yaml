@@ -4,5 +4,8 @@ hooks:
     # Ensure opencode config directories exist and are linked
     # https://opencode.ai/docs/config/#global
     - exec: "mkdir -p /var/www/html/.ddev/.opencode"
-    - exec: "mkdir -p ~/.config/opencode"
-    - exec: "ln -sf /var/www/html/.ddev/.opencode ~/.config/opencode"
+    - exec: "ln -sf /var/www/html/.ddev/.opencode .opencode"
+
+  pre-stop:
+    # Clean up opencode config symlink
+    - exec: "unlink .opencode"
