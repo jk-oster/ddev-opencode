@@ -2,11 +2,15 @@
 {
     "$schema": "https://opencode.ai/config.json",
     "mcp": {
+
+      // https://laravel.com/ai/boost
       "laravel-boost": {
         "type": "local",
         "command": ["php", "artisan", "boost:mcp"],
         "enabled": false
       },
+
+      // https://github.com/hauptsacheNet/clickup-mcp
       "clickup": {
         "type": "local",
         "command": [ "npx", "-y", "@hauptsache.net/clickup-mcp@latest" ],
